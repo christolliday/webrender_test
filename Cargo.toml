@@ -1,0 +1,11 @@
+[package]
+name = "webrender_test"
+version = "0.1.0"
+authors = ["Chris Tolliday <ctolliday@gmail.com>"]
+
+[dependencies]
+webrender = { git = "https://github.com/servo/webrender", rev = "e30886d78c91bdd433fd978a39c511ef9416608e" }
+glutin = { git = "https://github.com/christolliday/glutin", branch = "new_winit" }
+gleam = "0.4.14"
+euclid = "0.15.1"
+env_logger = "0.4"
